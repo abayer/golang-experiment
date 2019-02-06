@@ -1,12 +1,20 @@
 Step: build-step-credential-initializer:
 
+{"level":"warn","ts":1549471934.7076557,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1549471934.7083232,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 Step: build-step-git-source-workspace:
 
+{"level":"warn","ts":1549471935.7547185,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1549471936.3641243,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/abayer/mynodething\" @ \"jx-test\" in path \"/workspace/workspace\""}
 Step: build-step-place-tools:
 
 Step: build-step-step2:
 
 Step: build-step-source-mkdir-abayer-mynodething-jx-test:
 
+{"level":"warn","ts":1549471941.1841228,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1549471941.2023776,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /pvc/build/workspace\""}
 Step: build-step-source-copy-abayer-mynodething-jx-test:
 
+{"level":"warn","ts":1549471941.925808,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1549471941.9377918,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"cp -r /workspace/workspace/. /pvc/build/workspace\""}
